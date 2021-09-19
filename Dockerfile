@@ -1,3 +1,4 @@
+#start of docker file
 FROM default-route-openshift-image-registry.apps.recap.cp.fyre.ibm.com/openshift/golang:latest as builder
 
 WORKDIR /build
